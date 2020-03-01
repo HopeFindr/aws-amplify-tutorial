@@ -1,0 +1,42 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-hopefindrtest-dev-132014-authRole",
+			"UnauthRoleArn": "arn:aws:iam::061161564708:role/amplify-hopefindrtest-dev-132014-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::061161564708:role/amplify-hopefindrtest-dev-132014-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-hopefindrtest-dev-132014-deployment",
+			"UnauthRoleName": "amplify-hopefindrtest-dev-132014-unauthRole",
+			"StackName": "amplify-hopefindrtest-dev-132014",
+			"StackId": "arn:aws:cloudformation:us-east-1:061161564708:stack/amplify-hopefindrtest-dev-132014/722ca580-5c02-11ea-8a04-0a73682547f5",
+			"AmplifyAppId": "d1hje0fmrfavbt"
+		}
+	},
+	"api": {
+		"hopefindrtest": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "",
+							"apiKeyExpirationDays": "365"
+						}
+					}
+				},
+				"GraphQLAPIIdOutput": "zqcmn5acozdyzg4wkq7ja3mjre",
+				"GraphQLAPIEndpointOutput": "https://a5pvw67ytjfdpi2t6jfpyw2kjq.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-jp47iffoazbnznsoqhgqv3kgaa"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-hopefindrtest-dev-132014-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apihopefindrtest"
+			},
+			"lastPushTimeStamp": "2020-03-01T21:29:40.347Z",
+			"lastPushDirHash": "aQDP4wMrYcrNLu+XxTctvhkXtBY="
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "hopefindrtest",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "S3DeploymentBucket": "amplify-hopefindrtest-dev-132014-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/f0bf4dbb5b146b1a1dc06b91d7e734ee3a419d9b"
+}
